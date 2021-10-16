@@ -1,0 +1,23 @@
+.header{
+    position: absolute;
+    z-index: 100;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: transparent;
+}
+.header__nav{
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F1D4D4;
+    list-style: none;
+}
+.header__nav li{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 1.2rem;
+}
