@@ -1,7 +1,8 @@
 import React,{useEffect, useRef} from 'react'
 import './project.css';
 import VanillaTilt from 'vanilla-tilt';
-
+import {AiFillGithub} from 'react-icons/ai'
+import {CgWebsite} from 'react-icons/cg'
 
 const BigCards=(props) =>{
     const project = props.p;
@@ -26,10 +27,19 @@ const BigCards=(props) =>{
             <div className="wrapper">
                 <h1>{project.title}</h1>
                 <p>{project.discription}</p>
+                <div className="card__icons">
+                    <a href={project.github} target="_blank"><AiFillGithub className="icon"/></a>
+                    {
+                        project.project!=""?
+                            <a href={project.github} target="_blank">
+                                <CgWebsite className="icon" />
+                            </a>
+                            :
+                            ''
+                    }
+                </div>
             </div>
-            <div className="card__icons">
-                
-            </div>
+            
             
         </div>
     )
