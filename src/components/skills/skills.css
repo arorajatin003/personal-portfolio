@@ -1,0 +1,11 @@
+.skills{
+    height: 100vh;
+    width: 100vw;
+    /* background: #06084b; */
+    background-image:url(./coral.png), linear-gradient( rgba(3,4,35,1), rgba(0,0,0,1));
+    background-repeat: no-repeat !important;
+    background-size:cover !important;
+    background-position: 100% 32% !important;
+    margin-bottom: 0;
+    /* bottom: 0; */
+}

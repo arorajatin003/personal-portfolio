@@ -6,6 +6,7 @@
     right: 0;
     height: 50px;
     background-color: transparent;
+    overflow-x: hidden;
 }
 .header__nav{
     z-index: 100;
@@ -17,6 +18,11 @@
     list-style: none;
 }
 .header__nav li{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 1.2rem;
+}
+.header__nav li:nth-child(1){
     margin-top: 20px;
     margin-left: 100px;
     font-size: 1.2rem;

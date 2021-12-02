@@ -1,0 +1,38 @@
+import React,{useEffect, useRef} from 'react'
+import './project.css';
+import VanillaTilt from 'vanilla-tilt';
+
+
+const BigCards=(props) =>{
+    const project = props.p;
+    // console.log(props);
+    const options={
+        speed: 1000,
+        max:20,
+        glare:false       
+    }
+
+    const tilt = useRef(null);
+    
+    useEffect(() => {
+        VanillaTilt.init(tilt.current, options);
+    }, [options]);
+
+    
+    // element.addEventListener("tiltChange", callback);
+    return (
+        <div ref={tilt} className="glassmorfism bigCard">
+            <img className="card__img" src={project.img}></img>
+            <div className="wrapper">
+                <h1>{project.title}</h1>
+                <p>{project.discription}</p>
+            </div>
+            <div className="card__icons">
+                
+            </div>
+            
+        </div>
+    )
+}
+
+export default BigCards

@@ -1,0 +1,74 @@
+.project{
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg,rgba(0,221,247,1) 10%, #119dff 20%, #030423);
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.projrcts_list{
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(3,390px);
+    grid-row-gap: 30px;
+}
+.glassmorfism{
+    backdrop-filter: blur(16px);
+    /* background-color: blur(5px); */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    /* box-shadow:2px 2px 6px 4px rgba(0, 0, 0, 0.2); */
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.37),
+        inset 1px 1px 0 0 rgba(255, 255, 255, 0.2),
+        inset -1px -1px 0 0 rgba(0, 0, 0, 0.3),
+        inset -2px -2px 0 0 rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+}
+.bigCard{
+    height: 400px;
+    width: 310px;
+}
+
+.heading{
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #150E56;
+    width: 40%;
+    border-bottom: 1px solid #4c5d6986;
+}
+
+.bigCard .wrapper{
+    width: 310px;
+    height: 140px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-self: center;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+}
+.bigCard img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.bigCard h1{
+    /* padding-top: 20px; */
+    margin: 0 0 5px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.bigCard  p{
+    margin: 0 20px;
+    text-align: justify;
+    font-size: 1rem;
+    /* margin:0 2px; */
+    font-size: 300;
+}
