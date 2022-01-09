@@ -4,9 +4,13 @@ const LoadingAnimation =()=> {
     return (
         <div className="loading-animation-page">
             <div className="submarine">
-                <div className="top">
-                    <div className="light"></div>
-                    <div className="chimni"></div>
+                <div class="light"></div>
+                <div class="submarine__periscope"></div>
+                <div class="submarine__periscope-glass"></div>
+                <div class="submarine__sail">
+                    <div class="submarine__sail-shadow dark1"></div>
+                    <div class="submarine__sail-shadow light1"></div>
+                    <div class="submarine__sail-shadow dark2"></div>
                 </div>
                 <div className="submarine-body">
                     <div className="pinkShadow"></div>
