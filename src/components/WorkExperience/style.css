@@ -1,0 +1,73 @@
+.workExp{
+    background: rgb(0,224,247);
+    background: linear-gradient(180deg, rgba(0,224,247,1) 12%, rgba(17,154,255,1) 55%);
+    /* height:100vh;
+    width:100vw; */
+    padding: 0 15% 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 2.9rem;
+    letter-spacing: .1rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #150E56;
+    width: 40%;
+    border-bottom: 1px solid #4c5d6986;
+}
+.experience{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.wotline__logo{
+    width: 20vw;
+    height: 20vw;
+}
+.gateway__logo{
+    width: 30vw;
+    height:30vw;
+}
+.sub-heading{
+    align-self: start;
+    /* background: linear-gradient(
+        88.04deg,
+        #ee787b 22.54%,
+        #e153f2 41.08%,
+        #495be0 65.25%,
+        #6a39f3 86.1%
+    ); */
+
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* -moz-background-clip: text; */
+    /* -moz-text-fill-color: transparent; */
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 64px;
+    /* identical to box height, or 178% */
+
+    letter-spacing: -0.015em;
+}
+.workExp-dec{
+    /* font-family: Be Vietnam; */
+    font-style: normal;
+    font-size: 21px;
+    line-height: 31px;
+    align-items: center;
+
+    color: #e5e5e5;
+}

@@ -6,6 +6,7 @@ import Intro from './components/intro/Intro';
 import LoadingAnimation from './components/LoadingAnimation';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
+import WorkExp from './components/WorkExperience/WorkExp';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Intro />
       <About />
+      <WorkExp />
       <Projects />
       <Skills />
     </div>
