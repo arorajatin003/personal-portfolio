@@ -27,7 +27,7 @@ const LoadingAnimation =()=> {
                         <div class="submarine__propeller-parts lightOne"></div>
                     </div>        
                 </div>
-        </div>
+            </div>
         <div class="bubbles__container">
             <span class="bubbles bubble-1"></span>
             <span class="bubbles bubble-2"></span>

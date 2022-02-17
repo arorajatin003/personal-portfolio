@@ -12,12 +12,11 @@
 --lightColor: #817E97;
 --seaGroundColor1:#0c0051;
 --seaGroundColor2:#08003b;
+--transparent: transparent
 }
 
 .loading-animation-page{
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--bgColor);
+    background-color: var(--transparent);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +230,7 @@ position: absolute;
     left: 0%;
     width: 500px;
     height: 100px;
-    background: linear-gradient(to left, var(--lightColor), var(--bgColor));
+    background: linear-gradient(to left, var(--lightColor), var(--transparent));
     /* The points are: centered top, left bottom, right bottom */
     clip-path: polygon(0% 0%, 50% 45%, 50% 55%, 0% 100%);
     

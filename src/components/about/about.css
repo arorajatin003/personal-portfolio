@@ -8,23 +8,25 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    
+    /* position: relative; */
 }
 .wrapper{
     position: absolute;
     left: 0;
     right: 0;
-    width: 90vw;
+    /* top:0; */
+    width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 .about__text__div{
     top: 20%;
-    left: 15%;
+    left: 12%;
     position: absolute;
     /* z-index: 30; */
-    animation: textAnimation 8s ease-in-out infinite;
+    animation: textAnimation 8s linear infinite;
     width: 550px;
+
 }
 @keyframes textAnimation {
     0%{
@@ -48,10 +50,38 @@
 .about__text__div p{
     font-size: 1.3rem;
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
+    /* margin-bottom: 0; */
     font-weight: 400;
     color: #150E56;
 }
+.about__text__div a{
+    background-color: #150E56;
+    margin-top: 70px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #F6F6F6;
+}
+
+.about_Sub_div{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    cursor: pointer;
+}
+.about_Sub_div_start{
+    animation: submarineMovingAnimation 6s linear forwards;
+    animation-iteration-count: 1;
+}
+@keyframes submarineMovingAnimation {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+
 .wrapper .dot_div{
     height: 60px;
     width: 60px;

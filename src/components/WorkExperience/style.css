@@ -1,9 +1,9 @@
 .workExp{
     background: rgb(0,224,247);
-    background: linear-gradient(180deg, rgba(0,224,247,1) 12%, rgba(17,154,255,1) 55%);
+    background: linear-gradient(180deg, rgba(0,224,247,1) 12%, rgba(0, 190, 211,1) 55%);
     /* height:100vh;
     width:100vw; */
-    padding: 0 15% 0 10%;
+    padding: 0 12% 0 12%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,33 +33,22 @@
 .wotline__logo{
     width: 20vw;
     height: 20vw;
+    margin-left: 30px;
 }
 .gateway__logo{
     width: 30vw;
     height:30vw;
+    margin-right: 30px;
 }
 .sub-heading{
     align-self: start;
-    /* background: linear-gradient(
-        88.04deg,
-        #ee787b 22.54%,
-        #e153f2 41.08%,
-        #495be0 65.25%,
-        #6a39f3 86.1%
-    ); */
-
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    /* -moz-background-clip: text; */
-    /* -moz-text-fill-color: transparent; */
     margin-bottom: 12px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 64px;
-    /* identical to box height, or 178% */
-
+    color: #150E56;
     letter-spacing: -0.015em;
 }
 .workExp-dec{
@@ -69,5 +58,5 @@
     line-height: 31px;
     align-items: center;
 
-    color: #e5e5e5;
+    color: #150E56;
 }

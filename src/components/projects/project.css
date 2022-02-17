@@ -1,7 +1,7 @@
 .project{
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(180deg,rgba(0,221,247,1) 10%, #119dff 20%, #030423);
+    background: linear-gradient(180deg,rgb(0, 190, 211) 10%, #119dff 20%, #030423);
     padding: 100px 10%;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
 .bigCard img{
     height: 180px;
     width: 100%;
-    object-fit: cover;
+    object-fit:  fill;
     border-radius: 10px;
 }
 .bigCard h1{
