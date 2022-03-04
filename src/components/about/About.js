@@ -5,7 +5,7 @@ function About() {
     const [show, setShow] = useState(false);
     console.log(show);
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="wrapper">
                 <div className="about__text__div">
                     <h1>Who I am?</h1>

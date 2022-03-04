@@ -24,6 +24,7 @@
 }
 .intro__text h3{
     font-size: 1.8rem;
+    letter-spacing: .1rem;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
@@ -133,4 +134,57 @@
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
+}
+
+@media only screen and (max-width: 555px) {
+    .intro__text h3{
+        font-size: 1.5rem;
+    }
+    .intro__text h1{
+        font-size: 3rem;
+    }
+    .intro__text h4{
+        font-size: 1rem;
+    }
+    .wave{
+        width: 300%;
+    }
+    .waveTop{
+        background-size: 80% 150px;
+    }
+    .waveBottom {
+        background-size: 80% 130px;
+    }
+    .waveMiddle {
+        background-size: 80% 120px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .intro__text h3{
+        font-size: 1.4rem;
+    }
+    .intro__text h1{
+        font-size: 2.7rem;
+    }
+    .intro__text h4{
+        font-size: 1rem;
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .intro__text h3{
+        font-size: 1.2rem;
+    }
+    .intro__text h1{
+        font-size: 2.3rem;
+    }
+    .intro__text h4{
+        font-size: .8rem;
+        letter-spacing: 0.5rem;
+    }
+    .intro__text{
+        left: 30px;
+    }
 }

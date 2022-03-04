@@ -12,7 +12,7 @@ function Projects() {
         {key:5, title: "More Projects", discription:"I have projests done in React, Java, Node, Network Design etc. They all are hosted on my github have a look on them as well.",img:"https://github-readme-stats.vercel.app/api?username=arorajatin003&show_icons=true&theme=blue-green",github:"https://github.com/arorajatin003",project:""}
     ]
     return (
-        <div className="project">
+        <div className="project" id='projects'>
             <h1 className="heading">Some Of My Projects</h1>
             <div className="projrcts_list">
                 {
