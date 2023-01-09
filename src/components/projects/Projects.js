@@ -18,13 +18,14 @@ function Projects() {
                 {
                     projects.map((project,index) =>{
                         // <h1 key={index}>{project.title}</h1>
-                        return <BigCards p={project} /> 
+                        return( <div className='bigCardWrapper'><BigCards p={project} /></div> )
                         // console.log(project);
                     })
                    
                 }
                 
             </div>
+            
         </div>
     )
 }

@@ -9,7 +9,7 @@ function About() {
             <div className="wrapper">
                 <div className="about__text__div">
                     <h1>Who I am?</h1>
-                    <p>I am a Computer Science and Engineering student from SRM Institute of science & technology. Being passionate about web technology and AI/ML. I have experience in building beautiful and interactive web apps using JavaScript / Reactjs / Nodejs / Expressjs / MongoDb / Bootstrap and some other cool libraries and frameworks.</p>
+                    <p>I attend SRM Institute of Science & Technology where I study computer science and engineering. being enthusiastic about AI/ML and web technology. I have expertise utilising JavaScript, React, Node, Express, MongoDb, Bootstrap, and other amazing libraries and frameworks to create stunning and engaging web applications.</p>
                     <a target="_blank" href='/file/Jatin Arora_RA1911003010976 (1) (1).pdf' download>Resume</a> 
                 </div>   
                 <div className={`about_Sub_div ${show && `about_Sub_div_start`}`} onClick={()=>setShow(true)}>

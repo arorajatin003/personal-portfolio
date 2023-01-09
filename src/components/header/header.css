@@ -18,7 +18,11 @@
     color: white;
     backdrop-filter: blur(15px);
 }
-.header__nav{
+.header__nav__small{
+    display: none;
+    
+}
+.header__nav__large{
     padding: 20px 10%;
     z-index: 100;
     display: flex;
@@ -28,6 +32,7 @@
     color: #F1D4D4;
     list-style: none;
 }
+
 .header__nav li{
     /* margin-top: 20px; */
     /* margin-left: 100px; */
@@ -41,4 +46,153 @@
 .header__nav li a{
     color: #F1D4D4;
     text-decoration: none;
+}
+
+.header__menu{
+    width: 100vw;
+    height: 100vw;
+    border-radius: 0 0 0 100%;
+    background-color: rgba(255, 255, 255, 0.262);
+    backdrop-filter: blur(10px);
+    z-index: 200;
+    
+}
+.header__menu span{
+    color: #3a1735;
+    font-weight: 800;
+    font-size: 2rem;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+}
+.header__menu a{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #3a1735;
+    text-decoration: none;
+}
+.header__menu a:nth-of-type(1){
+    position: fixed;
+    top:15%;
+    left: 5%;
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+.header__menu a:nth-of-type(2){
+    position: fixed;
+    top:32%;
+    left: 10%;
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+.header__menu a:nth-of-type(3){
+    position: fixed;
+    top:52%;
+    left: 21%;
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+.header__menu a:nth-of-type(4){
+    position: fixed;
+    top:72%;
+    left: 41%;
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+@media (max-width: 450px) {
+    .header__nav__small{ 
+        /* <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> */
+        font-family: 'Great Vibes', sans-serif;
+        padding: 20px 10%;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* text-align: center; */
+        color: #F1D4D4;
+        list-style: none;
+        
+    }
+    .header__nav li{
+        font-size: 2rem;
+    }
+    .header__nav__large { display: none; }
+}
+
+@media (max-width: 400px){
+    .header__menu a:nth-of-type(1){
+        position: fixed;
+        top:12%;
+        left: 5%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(2){
+        position: fixed;
+        top:32%;
+        left: 11%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(3){
+        position: fixed;
+        top:52%;
+        left: 22%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(4){
+        position: fixed;
+        top:72%;
+        left: 41%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+}
+
+@media (max-width: 366px){
+    .header__menu a:nth-of-type(1){
+        position: fixed;
+        top:12%;
+        left: 7%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(2){
+        position: fixed;
+        top:32%;
+        left: 15%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(3){
+        position: fixed;
+        top:52%;
+        left: 27%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(4){
+        position: fixed;
+        top:72%;
+        left: 46%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+}
+
+
+@media (max-width: 330px){
+    .header__menu a:nth-of-type(1){
+        position: fixed;
+        top:7%;
+        left: 7%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(2){
+        position: fixed;
+        top:27%;
+        left: 13%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(3){
+        position: fixed;
+        top:47%;
+        left: 23%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .header__menu a:nth-of-type(4){
+        position: fixed;
+        top:67%;
+        left: 43%;
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
 }

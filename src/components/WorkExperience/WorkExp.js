@@ -10,9 +10,9 @@ const WorkExp=() =>{
                 <div className="details">
                     <div className="sub-heading">Wotline</div>
                     <div className='workExp-dec'>
-                        It was a 3 month Full stack web development internship. 
-                        <br />During this internship I developed Landing page and worked on the messageing feature with my team.
-                        <br />I also work created whatsApp clone as a practice project using ReactJs and Firebase.
+                        <li>It was a three-month internship in full-stack web development.</li>
+                        <li>I created a landing page for this internship and collaborated with my team on the messaging feature.</li>
+                        <li>As a practise project, I also developed a WhatsApp clone using ReactJs and Firebase.</li>
                     </div>    
                 </div>
                 <img className="wotline__logo" src={wotlineLogo}/>
@@ -22,9 +22,9 @@ const WorkExp=() =>{
                 <div className="details">
                     <div className="sub-heading">Gateway</div>
                     <div className='workExp-dec'>
-                        I am a FullStack web intern in Gateway Dao, It is a US based startup.
-                        <br />I have created multiple pages such as AboutUS, Quize, Commuity pages etc.
-                        <br />I have learnd ReactJS, TypeScript, Styled-components, AWS etc. 
+                        <li>I work as a FullStack web intern for the US-based firm Gateway Dao.</li>
+                        <li>I've made a number of pages, including AboutUS, Quize, community pages, etc.</li>
+                        <li>I've learned about ReactJS, TypeScript, Styled Components, AWS, and other things. </li>
                     </div>   
                 </div>
             </div>
